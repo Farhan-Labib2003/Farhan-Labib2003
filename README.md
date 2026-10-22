@@ -11,7 +11,7 @@ I'm a CSE student at **United International University (UIU)** with experience i
 | Database | MySQL |
 | Version Control | Git, GitHub |
 
-## 🚀 Featured Team Project
+## 🚀 Featured Team Projects
 
 ### BookBridge — UIU Used Textbook Marketplace
 
@@ -43,3 +43,34 @@ A campus marketplace where UIU students can buy and sell used textbooks, course 
 
 *Developed collaboratively as a four-member academic team project at UIU.*
 
+### ThreadFlow — Garment Production Management System
+
+A role-based system for managing garment production, fabric sourcing, quality control, and shipment, with traceability across the production workflow.
+
+**Team:** Four members  
+**Project Stack:** PHP, MySQL/MariaDB, HTML, CSS, JavaScript  
+**My Primary Contributions:** Production management, progress tracking, bottleneck monitoring, and operational dashboard
+
+#### My Contributions
+
+- Implemented production batch management.
+- Developed stage-progress history for tracking production updates.
+- Implemented bottleneck monitoring to identify production delays.
+- Built the operational dashboard.
+- Modernized the interfaces of my assigned modules.
+- Delivered changes through five merged pull requests.
+
+#### Contribution Evidence
+
+| Pull Request | Work |
+|---|---|
+| [#5 — Production batch management](https://github.com/ash01-forge/ThreadFlow/pull/5) | Added production batch management |
+| [#13 — Stage progress history](https://github.com/ash01-forge/ThreadFlow/pull/13) | Implemented production stage-progress history |
+| [#21 — Bottleneck monitoring](https://github.com/ash01-forge/ThreadFlow/pull/21) | Implemented production bottleneck monitoring |
+| [#24 — Operational dashboard](https://github.com/ash01-forge/ThreadFlow/pull/24) | Implemented the operational dashboard |
+| [#27 — Module interface modernization](https://github.com/ash01-forge/ThreadFlow/pull/27) | Modernized assigned module interfaces |
+
+[Explore the Repository →](https://github.com/ash01-forge/ThreadFlow)  
+[View Team Credits →](https://github.com/ash01-forge/ThreadFlow#team-contributions)
+
+*Developed collaboratively as a four-member academic team project at UIU.*
