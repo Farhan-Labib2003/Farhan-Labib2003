@@ -41,12 +41,5 @@ A campus marketplace where UIU students can buy and sell used textbooks, course 
 [**Explore the Repository →**](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace)  
 [**View Team Credits →**](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace#team-and-contributions)
 
-*Developed collaboratively as a UIU academic project. The original repository is maintained by our team leader; my contributions are linked above.*
+*Developed collaboratively as a four-member academic team project at UIU.*
 
-## 💡 Skills Applied in This Project
-
-- **Backend Development:** PHP APIs and JSON responses
-- **Database Operations:** MySQL queries for seller listings and sales history
-- **Application Workflows:** Listing management, image uploads, and sold/relist actions
-- **Testing and Debugging:** Backend tests and workflow fixes
-- **Team Collaboration:** Git branches, pull requests, and integration fixes
