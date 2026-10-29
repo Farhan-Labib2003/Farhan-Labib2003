@@ -1,14 +1,19 @@
 ![Farhan Labib — Code, Design, Build](./assets/banner.svg)
 
 I’m exploring software development through hands-on projects and collaboration. I enjoy understanding how systems work, translating requirements into features, and connecting individual components into a complete application.
-## 🛠️ Technical Skills
+---
 
-| Area | Technologies |
-|---|---|
-| Programming Languages | Java, C, C++, JavaScript, PHP |
-| Web | HTML, CSS |
-| Database | MySQL |
-| Version Control | Git, GitHub |
+## Languages & tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,php,js&theme=dark" alt="C, C++, Java, PHP, JavaScript" />
+</p>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,mysql,git,github&theme=dark" alt="HTML, CSS, MySQL, Git, GitHub" />
+</p>
+
+---
 
 ## 🚀 Featured Team Projects
 
