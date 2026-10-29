@@ -1,80 +1,134 @@
 ![Farhan Labib — Code, Design, Build](./assets/banner.svg)
 
 I’m exploring software development through hands-on projects and collaboration. I enjoy understanding how systems work, translating requirements into features, and connecting individual components into a complete application.
+
 ---
 
 ## Languages & tools
 
-<p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,php,js&theme=dark" alt="C, C++, Java, PHP, JavaScript" />
-</p>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,mysql,git,github&theme=dark" alt="HTML, CSS, MySQL, Git, GitHub" />
-</p>
+<table>
+  <tr>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="42" height="42" alt="C" />
+      <br />
+      <sub><b>C</b></sub>
+    </td>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="42" height="42" alt="C++" />
+      <br />
+      <sub><b>C++</b></sub>
+    </td>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="42" height="42" alt="Java" />
+      <br />
+      <sub><b>Java</b></sub>
+    </td>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="42" height="42" alt="PHP" />
+      <br />
+      <sub><b>PHP</b></sub>
+    </td>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="42" height="42" alt="JavaScript" />
+      <br />
+      <sub><b>JavaScript</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="42" height="42" alt="HTML" />
+      <br />
+      <sub><b>HTML</b></sub>
+    </td>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="42" height="42" alt="CSS" />
+      <br />
+      <sub><b>CSS</b></sub>
+    </td>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="42" height="42" alt="MySQL" />
+      <br />
+      <sub><b>MySQL</b></sub>
+    </td>
+    <td align="center" width="150">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="42" height="42" alt="Git" />
+      <br />
+      <sub><b>Git</b></sub>
+    </td>
+    <td align="center" width="150">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/e6edf3" />
+        <img src="https://cdn.simpleicons.org/github/181717" width="42" height="42" alt="GitHub" />
+      </picture>
+      <br />
+      <sub><b>GitHub</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🚀 Featured Team Projects
+## Selected team projects
 
-### BookBridge — UIU Used Textbook Marketplace
+[![ThreadFlow — garment production management](./assets/project-threadflow.svg)](https://github.com/ash01-forge/ThreadFlow)
 
-A campus marketplace where UIU students can buy and sell used textbooks, course notes, and lab manuals, with separate workflows for guests, buyers, sellers, and administrators.
+<details>
+<summary>ThreadFlow — my contributions</summary>
 
-**Team:** Four members  
-**Project Stack:** PHP, MySQL, JavaScript, HTML, CSS, and a compiled React interface  
-**My Primary Module:** Seller backend — `api/seller/`
+My primary work covered production batch management, stage-progress history, bottleneck monitoring, the operational dashboard, and interface modernization for my assigned modules.
 
-#### My Contributions
+| Contribution | Pull request |
+| --- | --- |
+| Production batch management | [#5](https://github.com/ash01-forge/ThreadFlow/pull/5) |
+| Stage-progress history | [#13](https://github.com/ash01-forge/ThreadFlow/pull/13) |
+| Bottleneck monitoring | [#21](https://github.com/ash01-forge/ThreadFlow/pull/21) |
+| Operational dashboard | [#24](https://github.com/ash01-forge/ThreadFlow/pull/24) |
+| Module interface modernization | [#27](https://github.com/ash01-forge/ThreadFlow/pull/27) |
 
-- Implemented seller backend APIs and tests.
-- Developed seller dashboard functionality and listing creation and editing.
-- Implemented image uploads and sold/relist actions.
-- Worked on seller sales history and related database queries.
-- Fixed seller editing and purchase-request workflows.
-- Delivered changes through three merged pull requests.
+[View team contributions](https://github.com/ash01-forge/ThreadFlow#team-contributions)
 
-#### Contribution Evidence
+</details>
 
-| Pull Request | Work |
-|---|---|
-| [#5 — Seller backend APIs and tests](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace/pull/5) | Implemented seller backend functionality and tests |
-| [#8 — Seller workflow fixes](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace/pull/8) | Fixed seller request actions, uploads, and sales history |
-| [#15 — Seller editing and purchase requests](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace/pull/15) | Fixed seller editing and purchase-request flow |
+<br />
 
-[**Explore the Repository →**](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace)  
-[**View Team Credits →**](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace#team-and-contributions)
+[![BookBridge — UIU used textbook marketplace](./assets/project-bookbridge.svg)](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace)
 
-*Developed collaboratively as a four-member academic team project at UIU.*
+<details>
+<summary>BookBridge — my contributions</summary>
 
-### ThreadFlow — Garment Production Management System
+My primary work covered:
 
-A role-based system for managing garment production, fabric sourcing, quality control, and shipment, with traceability across the production workflow.
+- Seller backend APIs and tests.
+- Seller dashboard functionality.
+- Listing creation and editing.
+- Image uploads and sold/relist actions.
+- Sales history and related database queries.
+- Seller editing and purchase-request workflow fixes.
 
-**Team:** Four members  
-**Project Stack:** PHP, MySQL/MariaDB, HTML, CSS, JavaScript  
-**My Primary Contributions:** Production management, progress tracking, bottleneck monitoring, and operational dashboard
+| Contribution | Pull request |
+| --- | --- |
+| Seller backend APIs and tests | [#5](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace/pull/5) |
+| Seller workflow fixes | [#8](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace/pull/8) |
+| Seller editing and purchase requests | [#15](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace/pull/15) |
 
-#### My Contributions
+[Explore the repository](https://github.com/ash01-forge/UIU-Used-Textbook-Marketplace)
 
-- Implemented production batch management.
-- Developed stage-progress history for tracking production updates.
-- Implemented bottleneck monitoring to identify production delays.
-- Built the operational dashboard.
-- Modernized the interfaces of my assigned modules.
-- Delivered changes through five merged pull requests.
+</details>
 
-#### Contribution Evidence
+<br />
 
-| Pull Request | Work |
-|---|---|
-| [#5 — Production batch management](https://github.com/ash01-forge/ThreadFlow/pull/5) | Added production batch management |
-| [#13 — Stage progress history](https://github.com/ash01-forge/ThreadFlow/pull/13) | Implemented production stage-progress history |
-| [#21 — Bottleneck monitoring](https://github.com/ash01-forge/ThreadFlow/pull/21) | Implemented production bottleneck monitoring |
-| [#24 — Operational dashboard](https://github.com/ash01-forge/ThreadFlow/pull/24) | Implemented the operational dashboard |
-| [#27 — Module interface modernization](https://github.com/ash01-forge/ThreadFlow/pull/27) | Modernized assigned module interfaces |
+[![BlueCycle — smart pond monitoring and control](./assets/project-bluecycle.svg)](https://github.com/Farhan-Labib2003/BlueCycle-Smart-Pond-Monitoring-System)
 
-[Explore the Repository →](https://github.com/ash01-forge/ThreadFlow)  
-[View Team Credits →](https://github.com/ash01-forge/ThreadFlow#team-contributions)
+---
 
-*Developed collaboratively as a four-member academic team project at UIU.*
+These projects were developed collaboratively. Individual contribution details and team credits are available in the linked repositories.
+
+## Connect
+
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin&theme=dark)](https://www.linkedin.com/in/farhan-labib-530402326/)
+
+[Connect with me on LinkedIn ↗](https://www.linkedin.com/in/farhan-labib-530402326/)
+
+---
+
+<sub>Technology icons: <a href="https://github.com/devicons/devicon">Devicon</a> · <a href="https://simpleicons.org/">Simple Icons</a> · <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a>.</sub>
