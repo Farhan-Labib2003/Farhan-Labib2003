@@ -1,9 +1,6 @@
 ![Farhan Labib — Code, Design, Build](./assets/banner.svg)
 
-# Hi, I'm Farhan Labib 
-
-I'm a CSE student at **United International University (UIU)** with experience in Java, C, C++, and web development. I enjoy building applications and collaborating on team projects.
-
+I’m exploring software development through hands-on projects and collaboration. I enjoy understanding how systems work, translating requirements into features, and connecting individual components into a complete application.
 ## 🛠️ Technical Skills
 
 | Area | Technologies |
