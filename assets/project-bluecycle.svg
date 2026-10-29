@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100" height="156" viewBox="0 0 1100 156"
+     role="img" aria-labelledby="title desc">
+
+  <title id="title">BlueCycle</title>
+  <desc id="desc">
+    Smart pond monitoring and control.
+    A collaborative IoT project using ESP32,
+    Arduino UNO, and water-quality sensors.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x2="1" y2="0">
+      <stop stop-color="#142333"/>
+      <stop offset="1" stop-color="#11161e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1098" height="154" rx="12"
+        fill="url(#background)" stroke="#2c465f"/>
+
+  <path d="M13 2Q2 2 2 13V143Q2 154 13 154"
+        fill="none" stroke="#74afe2" stroke-width="3"/>
+
+  <!-- Water-drop icon -->
+  <rect x="25" y="31" width="66" height="66" rx="12"
+        fill="#192d40" stroke="#355573"/>
+
+  <g transform="translate(42 43)"
+     fill="none" stroke="#8ac0ed"
+     stroke-width="2" stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M16 0C12 8 0 20 0 29
+             A16 16 0 0 0 32 29
+             C32 20 20 8 16 0Z"/>
+    <path d="M8 28C8 34 12 37 17 37"/>
+  </g>
+
+  <!-- Project text -->
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="115" y="48" fill="#cce4fa"
+          font-size="25" font-weight="700">
+      BlueCycle
+    </text>
+
+    <text x="115" y="76" fill="#acbdce" font-size="16">
+      Smart pond monitoring &amp; control
+    </text>
+
+    <text x="115" y="107" fill="#cdd8e3" font-size="15">
+      A collaborative IoT project using ESP32, Arduino UNO, and water-quality sensors.
+    </text>
+  </g>
+
+  <!-- Technology label -->
+  <text x="115" y="134" fill="#87a6c3"
+        font-family="Consolas,monospace" font-size="12">
+    ESP32 / Arduino UNO / Sensors
+  </text>
+
+  <!-- Repository indicator -->
+  <g fill="none" stroke="#8abce7"
+     stroke-width="1.8" stroke-linecap="round">
+    <path d="M1040 34H1058V52"/>
+    <path d="M1058 34L1039 53"/>
+  </g>
+
+</svg>
