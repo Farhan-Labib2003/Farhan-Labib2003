@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100" height="156" viewBox="0 0 1100 156"
+     role="img" aria-labelledby="title desc">
+
+  <title id="title">ThreadFlow</title>
+  <desc id="desc">
+    Garment production management.
+    My focus: production tracking, bottleneck monitoring,
+    and the operational dashboard.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x2="1" y2="0">
+      <stop stop-color="#1c1829"/>
+      <stop offset="1" stop-color="#11161e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1098" height="154" rx="12"
+        fill="url(#background)" stroke="#3e3356"/>
+
+  <path d="M13 2Q2 2 2 13V143Q2 154 13 154"
+        fill="none" stroke="#b39add" stroke-width="3"/>
+
+  <!-- Project icon -->
+  <rect x="25" y="31" width="66" height="66" rx="12"
+        fill="#241e35" stroke="#4d3d67"/>
+
+  <g transform="translate(42 45)"
+     fill="none" stroke="#c1a4eb"
+     stroke-width="2" stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M0 7L16 0L32 7L16 14Z"/>
+    <path d="M0 17L16 24L32 17"/>
+    <path d="M0 27L16 34L32 27"/>
+  </g>
+
+  <!-- Project text -->
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="115" y="48" fill="#e0d0f5"
+          font-size="25" font-weight="700">
+      ThreadFlow
+    </text>
+
+    <text x="115" y="76" fill="#b1b8c8" font-size="16">
+      Garment production management
+    </text>
+
+    <text x="115" y="107" fill="#d0d5e0" font-size="15">
+      My focus: Production tracking, bottleneck monitoring, and operational dashboard.
+    </text>
+  </g>
+
+  <!-- Technology label -->
+  <text x="115" y="134" fill="#9c8bb6"
+        font-family="Consolas,monospace" font-size="12">
+    PHP / MySQL / JavaScript
+  </text>
+
+  <!-- Repository indicator -->
+  <g fill="none" stroke="#bca0e5"
+     stroke-width="1.8" stroke-linecap="round">
+    <path d="M1040 34H1058V52"/>
+    <path d="M1058 34L1039 53"/>
+  </g>
+
+</svg>
