@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="430" viewBox="0 0 1200 430"
+     role="img" aria-labelledby="title desc">
+
+  <title id="title">Farhan Labib — Code, Design, Build</title>
+  <desc id="desc">
+    Animated software development banner with a typing headline,
+    code editor, terminal, and connected system components.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#101923"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <pattern id="grid" width="28" height="28"
+             patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none"
+            stroke="#263449" stroke-opacity=".25"/>
+    </pattern>
+
+    <clipPath id="typing">
+      <rect x="46" y="255" width="350" height="30">
+        <animate attributeName="width"
+                 values="0;0;350;350;0;0"
+                 keyTimes="0;.08;.48;.88;.97;1"
+                 dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="codeReveal">
+      <rect x="574" y="117" width="280" height="140">
+        <animate attributeName="height"
+                 values="0;140;140;0"
+                 keyTimes="0;.48;.94;1"
+                 dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="1" y="1" width="1198" height="428" rx="16"
+        fill="url(#background)" stroke="#303d4d"/>
+  <rect x="2" y="2" width="1196" height="426" rx="15"
+        fill="url(#grid)"/>
+
+  <path d="M2 379Q250 335 460 416H2Z"
+        fill="#172536" opacity=".45"/>
+
+  <!-- Identity -->
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="46" y="151" fill="#f0f3f6"
+          font-size="56" font-weight="700"
+          letter-spacing="-1.8">Farhan Labib</text>
+  </g>
+
+  <g font-family="Consolas,monospace">
+    <text x="48" y="191" fill="#a1afc2"
+          font-size="17" letter-spacing="2">
+      CODE <tspan fill="#97a7f5">/</tspan>
+      DESIGN <tspan fill="#b899e6">/</tspan>
+      BUILD
+    </text>
+
+    <text x="46" y="277" fill="#aecbea"
+          font-size="18" clip-path="url(#typing)"
+          textLength="344" lengthAdjust="spacingAndGlyphs">
+      Exploring. Designing. Building.
+    </text>
+
+    <rect x="46" y="281" width="10" height="2" fill="#84bafa">
+      <animate attributeName="x"
+               values="46;46;396;396;46;46"
+               keyTimes="0;.08;.48;.88;.97;1"
+               dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="1;0;1" dur="1s"
+               repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- System connections -->
+  <g fill="none" stroke-width="1.5" opacity=".7">
+    <path d="M868 110H921V76H977" stroke="#75a9df"/>
+    <path d="M868 173H944V174H977" stroke="#ad8ada"/>
+    <path d="M868 235H922V272H977" stroke="#d1ac64"/>
+    <path d="M860 350H920V370H977" stroke="#80b69a"/>
+    <path d="M1068 110V140" stroke="#ad8ada"/>
+    <path d="M1068 208V238" stroke="#d1ac64"/>
+    <path d="M1068 306V336" stroke="#80b69a"/>
+  </g>
+
+  <!-- Traveling data packets -->
+  <g>
+    <circle r="3" fill="#99c7f5">
+      <animateMotion path="M868 110H921V76H977"
+                     dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#c4a6ec">
+      <animateMotion path="M868 173H944V174H977"
+                     dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#e0bd78">
+      <animateMotion path="M868 235H922V272H977"
+                     dur="5.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#9bc9ae">
+      <animateMotion path="M860 350H920V370H977"
+                     dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Editor shadow and frame -->
+  <rect x="561" y="79" width="315" height="210" rx="12"
+        fill="#080c12" stroke="#223143"/>
+  <rect x="550" y="69" width="318" height="211" rx="10"
+        fill="#101720" stroke="#425268"/>
+  <path d="M560 69H858Q868 69 868 79V103H550V79Q550 69 560 69"
+        fill="#1b2633"/>
+
+  <circle cx="568" cy="86" r="4" fill="#ca7779"/>
+  <circle cx="583" cy="86" r="4" fill="#d3b46f"/>
+  <circle cx="598" cy="86" r="4" fill="#85b595"/>
+
+  <g font-family="Consolas,monospace" font-size="12">
+    <text x="620" y="90" fill="#a4b2c4">application.php</text>
+    <text x="833" y="90" fill="#6c8098">···</text>
+  </g>
+
+  <!-- Code lines -->
+  <g clip-path="url(#codeReveal)"
+     font-family="Consolas,monospace" font-size="13">
+    <g fill="#52667e">
+      <text x="563" y="133">1</text>
+      <text x="563" y="158">2</text>
+      <text x="563" y="183">3</text>
+      <text x="563" y="208">4</text>
+      <text x="563" y="233">5</text>
+    </g>
+    <text x="586" y="133" fill="#aebfe2">&lt;?php</text>
+    <text x="586" y="158" fill="#b69cdd">
+      function <tspan fill="#a8c6e8">buildSystem</tspan>() {
+    </text>
+    <text x="602" y="183" fill="#b69cdd">
+      return <tspan fill="#93bfa3">'ideas into features'</tspan>;
+    </text>
+    <text x="586" y="208" fill="#ccd5e0">}</text>
+    <text x="586" y="233" fill="#8292a6">// Keep exploring.</text>
+  </g>
+
+  <rect x="586" y="248" width="7" height="14" fill="#9bbce3">
+    <animate attributeName="opacity"
+             values="1;0;1" dur="1.2s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Terminal -->
+  <rect x="561" y="306" width="299" height="92" rx="9"
+        fill="#0e151e" stroke="#3b4c61"/>
+  <path d="M570 306H851Q860 306 860 315V330H561V315Q561 306 570 306"
+        fill="#192330"/>
+
+  <g font-family="Consolas,monospace" font-size="12">
+    <text x="577" y="322" fill="#8e9fb5">Terminal</text>
+    <text x="577" y="349" fill="#b0c2d8">&gt; building something useful</text>
+    <text x="577" y="370" fill="#91bfa2">✓ Requirements connected</text>
+    <text x="577" y="389" fill="#d0b16e">✓ Ready to explore</text>
+  </g>
+
+  <!-- Component cards -->
+  <g font-family="Consolas,monospace" font-size="12"
+     text-anchor="middle">
+
+    <!-- Client -->
+    <rect x="977" y="42" width="182" height="68" rx="8"
+          fill="#131e2b" stroke="#699bcd"/>
+    <g fill="none" stroke="#99bee4" stroke-width="1.6">
+      <rect x="1053" y="54" width="30" height="20" rx="2"/>
+      <path d="M1068 74V80M1058 80H1078"/>
+    </g>
+    <text x="1068" y="98" fill="#b8cfe8">Client</text>
+
+    <!-- Backend -->
+    <rect x="977" y="140" width="182" height="68" rx="8"
+          fill="#1c1828" stroke="#9b7fc5"/>
+    <g fill="none" stroke="#b89cdd" stroke-width="1.5">
+      <rect x="1055" y="151" width="26" height="29" rx="3"/>
+      <path d="M1055 161H1081M1055 171H1081"/>
+      <path d="M1060 156H1063M1060 166H1063M1060 176H1063"/>
+    </g>
+    <text x="1068" y="196" fill="#d0bde9">Backend</text>
+
+    <!-- Database -->
+    <rect x="977" y="238" width="182" height="68" rx="8"
+          fill="#211e16" stroke="#b3965e"/>
+    <g fill="none" stroke="#d4b376" stroke-width="1.5">
+      <ellipse cx="1068" cy="254" rx="14" ry="5"/>
+      <path d="M1054 254V274C1054 281 1082 281 1082 274V254"/>
+      <path d="M1054 264C1054 271 1082 271 1082 264"/>
+    </g>
+    <text x="1068" y="295" fill="#dec99f">Database</text>
+
+    <!-- Devices -->
+    <rect x="977" y="336" width="182" height="68" rx="8"
+          fill="#14221d" stroke="#699c82"/>
+    <g fill="none" stroke="#93bda5" stroke-width="1.5">
+      <rect x="1058" y="348" width="20" height="20" rx="2"/>
+      <rect x="1063" y="353" width="10" height="10" rx="1"/>
+      <path d="M1063 344V348M1073 344V348
+               M1063 368V372M1073 368V372
+               M1054 353H1058M1054 363H1058
+               M1078 353H1082M1078 363H1082"/>
+    </g>
+    <text x="1068" y="391" fill="#b1cfbe">Devices / IoT</text>
+
+  </g>
+</svg>
