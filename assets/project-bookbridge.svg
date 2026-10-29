@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100" height="156" viewBox="0 0 1100 156"
+     role="img" aria-labelledby="title desc">
+
+  <title id="title">BookBridge</title>
+  <desc id="desc">
+    UIU used textbook marketplace.
+    My focus: seller APIs, listing management,
+    image uploads, and sales history.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x2="1" y2="0">
+      <stop stop-color="#252015"/>
+      <stop offset="1" stop-color="#11161e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1098" height="154" rx="12"
+        fill="url(#background)" stroke="#50432b"/>
+
+  <path d="M13 2Q2 2 2 13V143Q2 154 13 154"
+        fill="none" stroke="#d5b270" stroke-width="3"/>
+
+  <!-- Book icon -->
+  <rect x="25" y="31" width="66" height="66" rx="12"
+        fill="#302719" stroke="#615033"/>
+
+  <g transform="translate(39 47)"
+     fill="none" stroke="#e0bf80"
+     stroke-width="2" stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M19 4C13 0 6 0 0 3V31C6 28 13 28 19 32"/>
+    <path d="M19 4C25 0 32 0 38 3V31C32 28 25 28 19 32"/>
+    <path d="M19 4V32"/>
+    <path d="M5 10C8 9 11 9 14 10"/>
+    <path d="M24 10C27 9 30 9 33 10"/>
+  </g>
+
+  <!-- Project text -->
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="115" y="48" fill="#f0dfbd"
+          font-size="25" font-weight="700">
+      BookBridge
+    </text>
+
+    <text x="115" y="76" fill="#bdb8ab" font-size="16">
+      UIU used textbook marketplace
+    </text>
+
+    <text x="115" y="107" fill="#d8d5cd" font-size="15">
+      My focus: Seller APIs, listing management, image uploads, and sales history.
+    </text>
+  </g>
+
+  <!-- Technology label -->
+  <text x="115" y="134" fill="#b3a079"
+        font-family="Consolas,monospace" font-size="12">
+    PHP / MySQL / JavaScript
+  </text>
+
+  <!-- Repository indicator -->
+  <g fill="none" stroke="#d8b779"
+     stroke-width="1.8" stroke-linecap="round">
+    <path d="M1040 34H1058V52"/>
+    <path d="M1058 34L1039 53"/>
+  </g>
+
+</svg>
