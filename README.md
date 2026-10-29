@@ -1,3 +1,5 @@
+![Farhan Labib — Code, Design, Build](./assets/banner.svg)
+
 # Hi, I'm Farhan Labib 
 
 I'm a CSE student at **United International University (UIU)** with experience in Java, C, C++, and web development. I enjoy building applications and collaborating on team projects.
